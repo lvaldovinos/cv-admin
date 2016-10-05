@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "mocha": true,
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+  "rules": {
+    "strict": [2, "global"],
+    "import/no-extraneous-dependencies": 0,
+    "no-unused-vars": ["error", {
+      "argsIgnorePattern": "^next$"
+    }],
+    "import/no-unresolved": ["error", {
+      ignore: ['app\/lib']
+    }]
+  }
+}

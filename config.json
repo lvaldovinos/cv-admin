@@ -1,0 +1,11 @@
+{
+  "defaults": {
+    "port": 3001
+  },
+  "local": {
+    "be": "http://localhost:3000"
+  },
+  "dev": {
+    "be": "http://cv-be:3000"
+  }
+}
